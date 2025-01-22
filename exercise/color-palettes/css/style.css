@@ -7,16 +7,87 @@ body {
     font-family: sans-serif;
 }
 
-#My-Favorite-Colors-heading {
+#my-favorite-colors-heading {
     font-family:cursive;
     text-align:center;
 }
 #light-green-area {
-    font-family: cursive;
-    text-align: center;
-    padding: 24px;
+    background-color:#88fb9f;
+    color:green;
+    font-family:cursive;
+    text-align:center;
+    padding: 44px;
 }
-#light-green-area {
-    font-family: cursive;
+
+#dartmouth-green-area {
+    background-color:#00663F;
+    color:white;
+    font-family:cursive;
+    text-align:center;
+    padding: 44px;
+}
+
+#asparagus-area {
+    background-color:#629B59;
+    color: white;
+    font-family:cursive;
     text-align: center;
+    padding: 44px;
+}
+
+#party-at-dusk-heading {
+    font-family:initial;
+    text-align: center;
+}
+
+#cornflower-blue-area {
+    background-color: #5C95FF;
+    color: white;
+    font-family: initial;
+    text-align: center;
+    padding: 44px;
+}
+#sandy-brown-area {
+    background-color: #FF9B54;
+    color: white;
+    font-family: initial;
+    text-align: center;
+    padding: 44px;
+}
+
+#bright-pink-crayola-area {
+    background-color: #EE4B6A;
+    color: white;
+    font-family: initial;
+    text-align: center;
+    padding: 44px;
+}
+
+#earth-tones-heading {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#hunter-green-area {
+    background-color: #386641;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 44px;
+}
+
+#pistachio-area {
+    background-color: #8ED081;
+    color: #3F220F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 44px;
+}
+
+#bistre-area {
+    background-color: #3F220F;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 44px;
 }
