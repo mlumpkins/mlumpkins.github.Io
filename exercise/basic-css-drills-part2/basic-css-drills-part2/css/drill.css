@@ -18,11 +18,11 @@
 }
 
 #d8-s2 {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 #d8-s3 {
-    font-style:italic;
+    font-style: italic;
 }
 
 /* Drill 9 - Write your code solution below */
@@ -67,7 +67,7 @@
 }
 
 #d12-div3 {
-    text-align:left;
+    text-align: left;
 }
 
 #d12-div4 {
@@ -78,7 +78,7 @@
 #d13-div2 {
     text-align: center;
     font-size: 12px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 #d13-div3 {
