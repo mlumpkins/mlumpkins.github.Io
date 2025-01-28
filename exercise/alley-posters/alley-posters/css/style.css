@@ -1,0 +1,73 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.first-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.second-image {
+    border-radius: 85px;
+    width: 115%;
+    height: 115%;
+    display: block;
+}
+
+.third-image {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.first-outer-frame {
+    border: solid 4px seagreen;
+    margin: 10px;
+}
+
+.first-inner-frame {
+    border: solid 4px green;
+}
+
+.second-outer-frame {
+    border-radius: 85px;
+    border: solid 4px lightskyblue;
+    margin: 10%;
+}
+
+.second-inner-frame {
+    border-radius: 58px;
+    border: solid 8px darkcyan;
+}
+
+.third-outer-frame {
+    border: solid 5px gray;
+    margin: 10px;
+}
+
+.third-inner-frame {
+    border: solid 10px white;
+}
+
+.featured-text-outer-frame {
+    border: solid 3px beige;
+    border-radius: 25px;
+}
+
+.featured-text-inner-frame {
+    border: solid 5px burlywood;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+div h3 {
+    font-family: cursive;
+    font-size: 15px;
+    color: white;
+}
