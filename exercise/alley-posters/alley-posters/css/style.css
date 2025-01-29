@@ -8,61 +8,74 @@
 */
 
 .first-image {
-    width: 100px;
-    height: 100px;
+    border-radius: 85px;
+    width: 85px;
+    height: 85px;
     display: block;
 }
 
 .second-image {
     border-radius: 85px;
     width: 100%;
-    height: 100%;
+    height: 85px;
     display: block;
 }
 
 .third-image {
-    width: 150px;
-    height: 150px;
+    border-radius: 55px;
+    width: 95px;
+    height: 95px;
     display: block;
 }
 
 .first-outer-frame {
-    border: solid 4px seagreen;
-    margin: 10px;
+    border-radius: 85px;
+    border: solid 5px seagreen;
+    margin-top: 25px;
+    box-shadow: 4px 2px 4px 2px;
 }
 
 .first-inner-frame {
-    border: solid 4px green;
+    border-radius: 58px;
+    border: solid 4px darkgreen;
+    box-shadow: 4px 2px 4px 2px lightgreen;
 }
 
 .second-outer-frame {
     border-radius: 85px;
     border: solid 4px lightskyblue;
-    margin: 10%;
+    margin: 25px;
+    box-shadow: 4px 2px 4px 2px;
 }
 
 .second-inner-frame {
     border-radius: 58px;
     border: solid 8px darkcyan;
+    box-shadow: 4px 2px 4px 2px darkblue;
 }
 
 .third-outer-frame {
-    border: solid 5px gray;
-    margin: 10px;
+    border-radius: 55px;
+    border: solid 8px gray;
+    margin-top: 25px;
+    box-shadow: 4px 2px 4px 2px;
 }
 
 .third-inner-frame {
+    border-radius: 55px;
     border: solid 10px white;
+    box-shadow: 4px 2px 4px 2px ;
 }
 
 .featured-text-outer-frame {
     border: solid 3px beige;
     border-radius: 25px;
+    box-shadow: 5px 5px 2px 2px;
 }
 
 .featured-text-inner-frame {
     background-color: bisque;
-    border: solid 5px burlywood;
+    border: solid 3px burlywood;
     border-radius: 25px;
     padding: 5px;
 }
