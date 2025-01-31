@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#side-bar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    width: 250px;
+    height: 100%;
+    padding: 24px;
+    border-right: 2px solid lightblue;
+}
+
+#side-bar h2 {
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 8px;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#main-content {
+    flex: 3;
+    text-align: center;
+    padding: 50px;
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+}
+
+#side-column {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sims-4-image {
+    width: 500px;
+    height: 500px;
+}
