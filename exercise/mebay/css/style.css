@@ -28,7 +28,6 @@ body {
 #column-1 {
     padding-top: 20px;
     grid-area: image-holder;
-    width: 50px;
 }
 
 #column-2 {
@@ -37,16 +36,13 @@ body {
 }
 
 #column-3 {
-    grid-template-columns: 1fr 1fr;
-    grid-area: content;
+   grid-area: content;
  }
 
 #image-holder {
    width: 150px;
-}
-
-#image-holder img {
-    
+   margin-left: auto;
+   text-align: right;
 }
 
 #image-holder img:hover {
@@ -56,20 +52,47 @@ body {
 }
 
 .inuyasha-image {
-    width: 100%;
+    width: 59%;
     border-radius: 15px;
     padding: 5px;
 
 }
 
 .main-image {
-    width: 655px;
-    height: 655px;
-    padding-left: 15px;
+    width: 455px;
+    height: 455px;
     border-radius: 15px;
 }
 
 .profile-info {
     display: flex;
     margin: 1px 1px 1px 1px;
+}
+
+#content {
+    margin-right: 10px;
+}
+
+.buy-now {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.add-to-cart {
+    border: solid lightskyblue;
+    padding: 20px;
+    color: blue;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.add-to-wishlist {
+    border: solid lightskyblue;
+    padding: 20px;
+    color: blue;
+    text-align: center;
+    border-radius: 50px;
 }
