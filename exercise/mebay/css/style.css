@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "image-holder main-image content";
+}
+
+#header {
+    text-align: center;
+    padding-left: 200px;
+    font-size: 15px;
+}
+
+#header #bay {
+    color: black;
+    font-size: 26px;
+}
+
+#column-1 {
+    padding-top: 20px;
+    grid-area: image-holder;
+    width: 50px;
+}
+
+#column-2 {
+    color: black;
+    grid-area: main-image;
+}
+
+#column-3 {
+    grid-template-columns: 1fr 1fr;
+    grid-area: content;
+ }
+
+#image-holder {
+   width: 150px;
+}
+
+#image-holder img {
+    
+}
+
+#image-holder img:hover {
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.inuyasha-image {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.main-image {
+    width: 655px;
+    height: 655px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.profile-info {
+    display: flex;
+    margin: 1px 1px 1px 1px;
+}
