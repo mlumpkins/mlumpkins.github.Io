@@ -1,0 +1,75 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+
+.post-it {
+    display: inline-block;
+ }
+
+p1 {
+    display: block;
+    font-style: italic;
+    font-family: cursive;
+    font-display: bold;
+    font-size: 35px;
+    text-align: center;
+    text-size-adjust: 25px;
+    margin: 24px;
+}
+
+.image-1 {
+    height: 150px;
+    width: 200px;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+
+p2 {
+    font-style: italic;
+    font-family: cursive;
+    font-display: bold;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    text-size-adjust: 25px;
+    margin: 24px;
+    background-color: darkcyan;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.first-inner-frame {
+    background-color: aquamarine;
+    margin: 24px;
+    height: 200px;
+    width: 200px;
+}
+
+.first-outer-frame {
+    box-shadow: 2px 2px 2px 2px;
+    height: 200px;
+    width: 200px;
+}
+
+.motivational-words-2 {
+    display: block;
+}
+
+.image-2 {
+    height: 150px;
+    width: 200px;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 2px 2px 2px 2px ;
+}

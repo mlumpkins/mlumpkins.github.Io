@@ -6,3 +6,33 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero-1 {
+    background-image: url(../images/R.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#hero-1 {
+    font-size: 120px;
+    position: absolute;
+    left: 20%;
+}
+
+#hero-2 {
+    background-image: url(../images/1217372.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}

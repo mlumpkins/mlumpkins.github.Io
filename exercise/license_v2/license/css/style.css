@@ -1,0 +1,94 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license {
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 24;
+    box-shadow: 15px 15px black;
+    background: linear-gradient(35deg, aquamarine, lightskyblue) ;
+}
+
+h1 {
+    margin: 25px;
+    font-size: 35px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    text-align: center;
+    background-color: lightseagreen;
+    width: 365px;
+    font-family: serif;
+    font-size: 24px;
+    color: blue;
+}
+
+#id-and-expiration {
+    margin: 10px;
+}
+
+div span {
+    color: blue;
+    font-weight: bold;
+}
+
+#address {
+    font-weight: bold;
+    margin: 20px 10px 0px 10px;
+}
+
+#signature {
+    margin: 0px 150px;
+}
+
+#data-right,
+#data-left {
+    margin: 0px 50px 0px 50px;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+    padding: 8px 15px;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    height: 50px;
+    width: 50px;
+    opacity: 0.7;
+}
+
+#small-pic,
+#data-fields {
+    display: inline-block;
+    margin: 10px;
+}
+
+#data-right,
+#data-left {
+    display: inline-block;
+}
+
+#real-id,
+#donor {
+   display: inline-block;
+}
