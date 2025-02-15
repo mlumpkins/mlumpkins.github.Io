@@ -19,13 +19,108 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 20px;
 }
 
 #navbar-1 #buisness-name-1 {
     margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-#navbar-2 .cta-button {
+#navbar-2 {
+    background: linear-gradient(to bottom, rgb(227, 184, 12), #e38a0d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 25px;
+    font-family: a;
+}
+
+#navbar-2 #buisness-name-2 {
+    margin-right: auto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#navbar-2 #subscribe-now {
+    border: rgb(145, 96, 6);
+    background-color: rgb(145, 96, 6);
+    border-radius: 65px;
+    padding: 12px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#navbar-3 {
+    background: rgb(232, 158, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-size: 28px;
+    font-family: d;
+}
+
+#navbar-3-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 28px;
+    font-size: 28px;
+    font-family: d;
+}
+
+#navbar-3-bottom {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#navbar-3-shopping-links {
+    background: rgb(210, 140, 11);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 12px 36px;
+    font-size: 25px;
+    font-family: d;
+}
+
+#navbar-3-shopping-links a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-3 #buisness-name-3 {
+    margin-right: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: d;
+}
+
+#navbar-3-bottom #header {
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: d;
+}
+
+#navbar-3-shoping-links .cta-button a {
     background-color: white;
     color: green;
     border-radius: 36px;
