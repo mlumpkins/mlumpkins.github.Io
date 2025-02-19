@@ -212,15 +212,15 @@ a {
 
 /* TODO: Add your media query code here */
 
-@media screen and (max-width: 768px:) {
+@media screen and (max-width: 768px) {
     
     #hero h1 {
-        font-size: 25px;
+        font-size: 45px;
         margin: 0px;
     }
 
     #hero h3 {
-        font-size: 25px;
+        font-size: 35px;
         margin: 0px;
     }
 
@@ -235,6 +235,7 @@ a {
 
     .three-cards {
         flex-direction: column;
+        align-items: center;
     }
 
     .card {
