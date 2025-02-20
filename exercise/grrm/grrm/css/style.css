@@ -499,15 +499,17 @@ body {
         flex-direction: row;
     }
 
-    #shield-image {
+    #shield-image, 
+    #search-bar,
+    #search-button {
         display: none;
     }
 
-    #search-bar,
-    #search-button,
-    #social-section{
-        
-    }
+   #social-section {
+        display: flex;
+        flex-direction: row;
+
+   }
 
     #grid-layout {
         grid-template-columns: 1fr;
