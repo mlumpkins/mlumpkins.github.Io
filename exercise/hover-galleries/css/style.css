@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#gallery-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: grid;
+    border: 3px solid black;
+    padding: 12px;
+    margin: 36px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card:hover {
+    background: linear-gradient(25deg, orange, red);
+    box-shadow: 4px 4px 4px #000;
+    transform: translatey(-10px);
+}
+
+.card {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.image-holder .images {
+    width: 335px;
+    height: 275px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#gallery-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-2 {
+    flex: 300px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card-2:hover {
+    background: linear-gradient(35deg, yellow, rgb(6, 75, 121));
+    box-shadow: 4px 4px 4px #000;
+}
+
+.card-2 a {
+    text-decoration: none;
+    color: black;
+    display: grid;
+    border: 3px solid black;
+    padding: 12px;
+    margin: 36px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-2 .images-2 {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibillity 0.5s,
+        transform 0.5s;
+}
+
+.card-2:hover .images-2 {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.image-holder-2 .images-2 {
+    width: 325px;
+    height: 475px;
+    align-items: center;
+}
+
+#gallery-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-3 {
+    flex: 300px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card-3 a {
+    text-decoration: none;
+    color: black;
+    display: grid;
+    border: 3px solid black;
+    padding: 12px;
+    margin: 36px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-3 .content-container {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibillity 0.5s,
+        transform 0.5s;
+}
+
+.card-3:hover .content-container {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.card-3:hover .images-3 {
+    transform: rotate(-10px);
+}
+
+.image-holder-3 .images-3 {
+    width: 550px;
+    height: 375px;
+    align-items: center;
+    border-radius: 25px;
+    transform: rotate(0px);
+    transition: 
+        transform 0.5s;
+}
+
+.content-container {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.card-3 .image-3 {
+    transform: scaleX(0);
+}
+
+.card-3 .image-3 {
+    background-image: url("../images/american-dad-1.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.card-3 .images-3 {
+    transition: transform 0.25s;
+}
+
+.card-3 .images-3 {
+    transition: transform 0.25s;
+}
+
+#card6:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card6:hover .card-back {
+    transform: scaleX(1);
+}
