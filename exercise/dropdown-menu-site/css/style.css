@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    height: 100vw;
+    background: url("../images/paw-background.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #de9f0c, #ebba17);
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 28px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #e5b710, #d39308);
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+}
+
+.dropdown-menu a {
+    background-color: rgb(237, 178, 27);
+    width: 100%;
+    min-width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#navbar .dropdown-menu a:hover {
+    background: rgb(203, 129, 19) ;
+}
+
+.dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+#image-container .image-1 {
+    width: 250px;
+    height: 350px;
+    box-shadow: 3px 3px 3px 3px rgb(173, 85, 23);
+    align-items: center;
+    margin: 0px auto;
+    border-radius: 15px;
+}
+
+#bio {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(79, 47, 7);
+}
+
+#header {
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(92, 54, 7);
+}
+
+#content-container {
+    background-color: #ebe5c8cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    border-radius: 55px;
+    margin: 25px auto;
+    padding: 26px;
+}
+
+#adopt-button a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(184, 113, 27);
+    color: white;
+    border-radius: 15px;
+    padding: 9px;
+    margin-bottom: 20px;
+}
