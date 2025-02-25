@@ -112,7 +112,34 @@ h1 {
     align-items: flex-start;
 }
 
-.card-1 {
+#card-1 {
+    flex: 300px;
+    min-height: 250px;
+    position: relative;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+#card-2 {
+    flex: 300px;
+    min-height: 250px;
+    position: relative;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+#card-3 {
+    flex: 300px;
+    min-height: 250px;
+    position: relative;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+#card-4 {
     flex: 300px;
     min-height: 250px;
     position: relative;
@@ -127,45 +154,45 @@ h1 {
     text-align: center;
 }
 
-.card-1-front-1,
-.card-1-back-1 {
+.card-front-1,
+.card-back-1 {
     border-radius: 12px;
     padding: 24px;
 }
  
-.card-1-front-1 {
+.card-front-1 {
     border-radius: 12px;
-    width: 515px;
-    height: 100%;
+    width: 475px;
+    height: 300px;
     position: absolute;
     transition: transform 0.25s 0.25s;
 }
  
-.card-1-back-1 {
-    height: 100%;
-    width: 515px;
+.card-back-1 {
+    height: 300px;
+    width: 475px;
     transform: scaleX(0);
     transition: transform 0.25s;
     min-height: 250px;
 }
  
-.card-1:hover .card-front-1 {
+#card-1:hover .card-front-1 {
     transform: scaleX(0);
     transition: transform 0.25s;
 }
  
-.card-1:hover .card-back-1 {
+#card-1:hover .card-back-1 {
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }
 
-#ad .card-front-1 {
+.ad .card-front-1 {
     background-image: url("../images/american-dad-1.jpg");
     background-size: cover;
     background-position: center center;
 }
 
-#ad .card-back-1 {
+.ad .card-back-1 {
     background-image: 
         linear-gradient(#ffffffdd, #ffffffdd),
         url("../images/american-dad-1.jpg");
@@ -173,13 +200,13 @@ h1 {
     background-position: center center;
 }
 
-#ad .card-front-2 {
+.ad .card-front-2 {
     background-image: url("../images/family-guy-2.avif");
     background-size: cover;
     background-position: center center;
 }
 
-#ad .card-back-2 {
+.ad .card-back-2 {
     background-image: 
         linear-gradient(#ffffffdd, #ffffffdd),
         url("../images/family-guy-2.avif");
@@ -187,14 +214,14 @@ h1 {
     background-position: center center;
 }
 
-#ad .card-front-3 {
+.ad .card-front-3 {
     background-image: 
         url("../images/rick-and-morty-3.jpg");
     background-size: cover;
     background-position: center center;
 }
 
-#ad .card-back-3 {
+.ad .card-back-3 {
     background-image: 
         linear-gradient(#ffffffdd, #ffffffdd),
         url("../images/rick-and-morty-3.jpg");
@@ -202,14 +229,14 @@ h1 {
     background-position: center center;
 }
 
-#ad .card-front-4 {
+.ad .card-front-4 {
     background-image: 
         url("../images/the-simpsons-4.jpg");
     background-size: cover;
     background-position: center center;
 }
 
-#ad .card-back-4 {
+.ad .card-back-4 {
     background-image: 
         linear-gradient(#ffffffdd, #ffffffdd),
         url("../images/the-simpsons-4.jpg");
@@ -226,25 +253,25 @@ h1 {
 .card-front-2 {
     border-radius: 12px;
     width: 475px;
-    height: 100%;
+    height: 300px;
     position: absolute;
     transition: transform 0.25s 0.25s;
 }
  
 .card-back-2 {
-    height: 100%;
+    height: 300px;
     width: 475px;
     transform: scaleX(0);
     transition: transform 0.25s;
     min-height: 250px;
 }
  
-.card-2:hover .card-front-2 {
+#card-2:hover .card-front-2 {
     transform: scaleX(0);
     transition: transform 0.25s;
 }
  
-.card-2:hover .card-back-2 {
+#card-2:hover .card-back-2 {
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }
@@ -257,26 +284,26 @@ h1 {
  
 .card-front-3 {
     border-radius: 12px;
-    width: 515px;
-    height: 100%;
+    width: 475px;
+    height: 300px;
     position: absolute;
     transition: transform 0.25s 0.25s;
 }
  
 .card-back-3 {
-    height: 100%;
-    width: 515px;
+    height: 300px;
+    width: 475px;
     transform: scaleX(0);
     transition: transform 0.25s;
     min-height: 250px;
 }
  
-.card-3:hover .card-front-3 {
+#card-3:hover .card-front-3 {
     transform: scaleX(0);
     transition: transform 0.25s;
 }
  
-.card-3:hover .card-back-3 {
+#card-3:hover .card-back-3 {
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }
@@ -289,26 +316,26 @@ h1 {
  
 .card-front-4 {
     border-radius: 12px;
-    width: 515px;
-    height: 100%;
+    width: 475px;
+    height: 300px;
     position: absolute;
     transition: transform 0.25s 0.25s;
 }
  
 .card-back-4 {
-    height: 100%;
-    width: 515px;
+    height: 300px;
+    width: 475px;
     transform: scaleX(0);
     transition: transform 0.25s;
     min-height: 250px;
 }
  
-.card-4:hover .card-front-4 {
+#card-4:hover .card-front-4 {
     transform: scaleX(0);
     transition: transform 0.25s;
 }
  
-.card-4:hover .card-back-4 {
+#card-4:hover .card-back-4 {
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }
