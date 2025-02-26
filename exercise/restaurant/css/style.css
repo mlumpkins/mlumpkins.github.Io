@@ -146,6 +146,11 @@ body {
     margin-right: auto;
 }
 
+#card-1,
+#card-2 {
+    position: relative;
+}
+
 .card-front-1,
 .card-back-1 {
     border-radius: 12px;
@@ -258,4 +263,45 @@ body {
     color: white;
     padding: 10px;
     font-size: 15px;
+}
+
+
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 450px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #dropdown-container {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .content-container {
+        text-align: center;
+    }
+
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "p1"
+            "img1"
+            "img2"
+            "img3"
+            "img4";
+    }
+
+    #info p {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
