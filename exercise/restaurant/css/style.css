@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+#navbar {
+    background: black;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 25px;
+}
+
+#navbar .logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    width: 100px;
+    height: 98px;
+}
+
+#navbar a:hover {
+    background: black;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu a {
+    background-color: grey;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s;
+    z-index: 1;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+#hero-1 {
+    background-image: url(../images/medieval-times-food-3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+#hero-1 #header {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 34px;
+    font-family: d;
+}
+
+#hero-1 #info {
+    color: white;
+    font-family: d;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(97, 85, 70, 0.433);
+    border-radius: 8px;
+    padding-right: 10px;
+}
+
+#hero-1 #button a {
+    color: black;
+    font-size: 20px;
+    font-family: d;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 25px;
+    margin: 8px;
+    padding: 8px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60vw;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+#cards .food {
+    height: 350px;
+    width: 350px;
+    border-radius: 18px;
+    margin: 25px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-front-1,
+.card-back-1 {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.card-front-1 {
+    position: absolute;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    transition: transform 0.25s 0.25s;
+}
+ 
+.card-back-1 {
+    height: 300px;
+    width: 400px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    min-height: 250px;
+}
+ 
+#card-1:hover .card-front-1 {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+ 
+#card-1:hover .card-back-1 {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+.food .card-front-1 {
+    background-image: url("../images/medieval-times-food-4.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.food .card-back-1 {
+    background-image: 
+        linear-gradient(#debd71dd, #eed1718c),
+        url("../images/medieval-times-food-4.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-back-1 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: d;
+}
+
+.card-front-2,
+.card-back-2 {
+    border-radius: 12px;
+    padding: 10px;
+}
+ 
+.card-front-2 {
+    position: absolute;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    transition: transform 0.25s 0.25s;
+}
+ 
+.card-back-2 {
+    height: 300px;
+    width: 400px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    min-height: 250px;
+}
+ 
+#card-2:hover .card-front-2 {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+ 
+#card-2:hover .card-back-2 {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+.food .card-front-2 {
+    background-image: url("../images/medieval-times-food-5.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.food .card-back-2 {
+    background-image: 
+        linear-gradient(#debd71dd, #eed1718c),
+        url("../images/medieval-times-food-5.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-back-2 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: d;
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
