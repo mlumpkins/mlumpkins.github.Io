@@ -5,11 +5,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.896);
 }
 
 
 #navbar {
-    background: black;
+    background: white;
     display: flex;
     align-items: center;
     height: 100px;
@@ -18,36 +19,46 @@ body {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
     font-size: 25px;
 }
 
 #navbar .logo {
     margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
+    margin-bottom: 5px;
     padding-top: 5px;
     padding-bottom: 12px;
-    width: 100px;
-    height: 98px;
+    width: 110px;
+    height: 110px;
 }
 
 #navbar a:hover {
-    background: black;
+    background: white;
 }
 
 #navbar #button a {
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
     font-family: d;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: white;
+    background-color: black;
     border-radius: 25px;
-    margin: 8px;
-    padding: 8px;
+    margin: 10px;
+    padding: 10px;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+#navbar #button:hover a {
+    background-color: rgb(207, 202, 202);
+    color: black;
+    transition: 
+        background-color .5s,
+        color .5s;
 }
 
 .dropdown-container {
@@ -55,13 +66,14 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: grey;
+    background-color: white;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
     background: black;
+    color: white;
 }
 
 .dropdown-menu {
@@ -106,28 +118,39 @@ body {
 }
 
 #hero-1 #info {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: d;
     font-weight: bold;
     font-size: 24px;
     display: flex;
     justify-content: flex-end;
-    background-color: rgba(97, 85, 70, 0.433);
+    background-color: rgba(255, 255, 255, 0.833);
     border-radius: 8px;
     padding-right: 10px;
 }
 
 #hero-1 #button a {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: d;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
     background-color: white;
     border-radius: 25px;
-    margin: 8px;
-    padding: 8px;
+    margin: 10px;
+    padding: 10px;
+    transition: 
+    background-color .5s,
+    color .5s;
+}
+
+#hero-1 #button:hover a {
+    background-color: black;
+    color: white;
+    transition: 
+        background-color .5s,
+        color .5s;
 }
 
 #content {
@@ -270,10 +293,107 @@ body {
     font-family: d;
 }
 
+
+#card-1,
+#card-2,
+#card-3 {
+    position: relative;
+}
+
+.card-front-3,
+.card-back-3 {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.card-front-3 {
+    position: absolute;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    transition: transform 0.25s 0.25s;
+}
+ 
+.card-back-3 {
+    height: 300px;
+    width: 400px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+    min-height: 250px;
+}
+ 
+#card-3:hover .card-front-3 {
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+ 
+#card-3:hover .card-back-3 {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s;
+}
+
+.food .card-front-3 {
+    background-image: url("../images/medieval-times-food-6.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.food .card-back-3 {
+    background-image: 
+        linear-gradient(#debd71dd, #eed1718c),
+        url("../images/medieval-times-food-6.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-back-3 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: d;
+}
+
+#featured-dish-entree .header {
+    text-align: center;
+    font-size: 28px;
+    font-family: d;
+    color: white;
+    margin: 10px;
+}
+
+#featured-dish-entree .description {
+    text-align: center;
+    font-size: 24px;
+    font-family: d;
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+
+#featured-dish-entree .pricing {
+    text-align: center;
+    font-size: 20px;
+    font-family: d;
+    color: white;
+}
+
+#featured-dish-entree .menu-images .main-img {
+    justify-content: center;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+}
+
+.menu-images .menu-imgs {
+    width: 550px;
+    height: 450px;
+    justify-content: center;
+}
+
 #footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px;
     font-size: 15px;
 }
