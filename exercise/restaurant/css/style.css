@@ -377,17 +377,97 @@ body {
     color: white;
 }
 
-#featured-dish-entree .menu-images .main-img {
-    justify-content: center;
-    width: 550px;
-    height: 450px;
+#featured-dish-entree #main-image .main-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu-images .header {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: d;
+}
+
+.menu-images .pricing {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: d;
+}
+
+.menu-images .description {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: d;
+    display: inline-block;
+}
+
+
+
+.menu-gallery {
+    max-width: 800px;
+    margin: 48px auto;
     text-align: center;
 }
 
-.menu-images .menu-imgs {
-    width: 550px;
-    height: 450px;
-    justify-content: center;
+.menu-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+    border: 10px solid #f4b8636a;
+}
+
+.menu-gallery .menu-imgs {
+    border: white 4px;
+    border-radius: 8px;
+    width: 350px;
+    height: 250px;
+}
+
+#alcohol-section {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#alcohol-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+    border: 10px solid #f4b8636a;
+}
+
+#alcohol-section .menu-imgs {
+    border: white 4px;
+    border-radius: 8px;
+    width: 350px;
+    height: 250px;
+}
+
+#desserts {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#desserts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+    border: 10px solid #f4b8636a;
+}
+
+#desserts .menu-imgs {
+    border: white 4px;
+    border-radius: 8px;
+    width: 350px;
+    height: 250px;
 }
 
 #footer {
