@@ -113,41 +113,41 @@ body {
     padding: 15px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 35px;
 }
 
-#party-info #rsvp-button a {
+#party-info #adress-time #rsvp-button a {
     text-align: center;
     font-size: 28px;
     text-decoration: none;
+    padding: 15px;
+    margin-bottom: 15px;
     background-color: rgb(177, 177, 212);
     border-radius: 10px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px;
-    gap: 25px;
-    display: inline-block;
     transition: 
     background-color .5s,
     color .5s;
 }
 
-#party-info #rsvp-button-2 a {
+#party-info #adress-time #rsvp-button-2 a {
     text-align: center;
     font-size: 28px;
     text-decoration: none;
-    background-color: rgb(177, 177, 212);
     border-radius: 10px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px;
-    gap: 25px;
     display: inline-block;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: rgb(177, 177, 212);
     transition: 
     background-color .5s,
     color .5s;
 }
 
-#party-info #rsvp-button:hover a {
+#party-info #adress-time #rsvp-button:hover a {
     background-color: rgb(113, 113, 197);
     color: white;
     transition: 
@@ -155,7 +155,7 @@ body {
         color .5s;
 }
 
-#party-info #rsvp-button-2:hover a {
+#party-info #adress-time #rsvp-button-2:hover a {
     background-color: rgb(113, 113, 197);
     color: white;
     transition: 
