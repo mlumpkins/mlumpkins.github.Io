@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgba(247, 219, 219, 0.533);
+}
+
+#header {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+    margin-left: 750px;
+    margin-right: 200px;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+}
+
+#sub-header {
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 25px;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+}
+
+#hosts {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 800px;
+    margin-right: 200px;
+    padding: 8px;
+    display: inline-block;
+    
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color: black;
+    padding: 48px;
+} 
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.card {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 8px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.card .game-img {
+    width: 355px;
+    height: 485px;
+}
+
+#card-section #vs {
+    font-size: 25px;
+    padding-top: 225px;
+}
+
+#party-info #party-header {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#party-info #party-details {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#party-info #adress-time {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#party-info #extra-info {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#party-info #rsvp-button a {
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: rgb(177, 177, 212);
+    border-radius: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    gap: 25px;
+    display: inline-block;
+    transition: 
+    background-color .5s,
+    color .5s;
+}
+
+#party-info #rsvp-button-2 a {
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: rgb(177, 177, 212);
+    border-radius: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    gap: 25px;
+    display: inline-block;
+    transition: 
+    background-color .5s,
+    color .5s;
+}
+
+#party-info #rsvp-button:hover a {
+    background-color: rgb(113, 113, 197);
+    color: white;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+#party-info #rsvp-button-2:hover a {
+    background-color: rgb(113, 113, 197);
+    color: white;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
