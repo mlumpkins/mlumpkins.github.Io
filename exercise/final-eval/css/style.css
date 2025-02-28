@@ -75,6 +75,8 @@ body {
 #card-section #vs {
     font-size: 25px;
     padding-top: 225px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 #party-info #party-header {
