@@ -479,6 +479,76 @@ body {
     font-size: 15px;
 }
 
+.menu-gallery .menu-buttons a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: d;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 
+    background-color .5s,
+    color .5s;
+}
+
+.menu-gallery .menu-buttons:hover a {
+    background-color: white;
+    color: black;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+#alcohol-section .menu-buttons a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: d;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 
+    background-color .5s,
+    color .5s;
+}
+
+#alcohol-section .menu-buttons:hover a {
+    background-color: white;
+    color: black;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
+
+#desserts .menu-buttons a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: d;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 
+    background-color .5s,
+    color .5s;
+}
+
+#desserts .menu-buttons:hover a {
+    background-color: white;
+    color: black;
+    transition: 
+        background-color .5s,
+        color .5s;
+}
+
 
 /* MOBILE BREAKPOINT */
 @media screen and (max-width: 800px) {
