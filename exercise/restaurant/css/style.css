@@ -120,18 +120,20 @@ body {
     color: rgb(255, 255, 255);
     font-family: d;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
+    word-spacing: 3px;
     display: flex;
     padding: 8px;
     justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.505);
+    background-color: rgba(0, 0, 0, 0.663);
     border-radius: 8px;
     padding-right: 10px;
+    margin-bottom: 15px;
 }
 
 #hero-1 #button a {
     color: black;
-    font-size: 25px;
+    font-size: 28px;
     font-family: d;
     font-weight: bold;
     text-decoration: none;
@@ -139,7 +141,7 @@ body {
     background-color: white;
     border-radius: 25px;
     margin: 10px;
-    padding: 10px;
+    padding: 12px;
     transition: 
     background-color .5s,
     color .5s;
@@ -238,6 +240,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-family: d;
+    color: rgb(255, 255, 255);
 }
 
 .card-front-2,
@@ -291,6 +294,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-family: d;
+    color: white;
 }
 
 
@@ -351,6 +355,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-family: d;
+    color: white;
 }
 
 #featured-dish-entree .header {
@@ -366,7 +371,8 @@ body {
     font-size: 24px;
     font-family: d;
     display: flex;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
 }
 
@@ -484,9 +490,10 @@ body {
 
 .menu-gallery .menu-buttons a {
     text-decoration: none;
+    margin: 15px;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: d;
     background-color: black;
     padding: 10px;
@@ -495,6 +502,10 @@ body {
     transition: 
     background-color .5s,
     color .5s;
+}
+
+.menu-buttons {
+    margin-bottom: 25px;
 }
 
 .menu-gallery .menu-buttons:hover a {
@@ -509,7 +520,7 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: d;
     background-color: black;
     padding: 10px;
@@ -534,7 +545,7 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: d;
     background-color: black;
     padding: 10px;
@@ -557,7 +568,7 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: d;
     background-color: black;
     padding: 10px;
