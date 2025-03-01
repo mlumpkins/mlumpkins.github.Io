@@ -8,7 +8,6 @@ body {
     background-color: rgba(0, 0, 0, 0.896);
 }
 
-
 #navbar {
     background: white;
     display: flex;
@@ -164,7 +163,6 @@ body {
     text-align: center;
 }
 
-
 #cards .food {
     height: 350px;
     width: 350px;
@@ -296,7 +294,6 @@ body {
     font-family: d;
     color: white;
 }
-
 
 #card-1,
 #card-2,
@@ -539,7 +536,6 @@ body {
         background-color .5s,
         color .5s;
 }
-
 
 #desserts .menu-buttons a {
     text-decoration: none;
