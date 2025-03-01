@@ -491,11 +491,11 @@ body {
 .menu-gallery .menu-buttons a {
     text-decoration: none;
     margin: 15px;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 24px;
     font-family: d;
-    background-color: white;
+    background-color: black;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
@@ -509,8 +509,8 @@ body {
 }
 
 .menu-gallery .menu-buttons:hover a {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 
         background-color .5s,
         color .5s;
@@ -518,11 +518,11 @@ body {
 
 #alcohol-section .menu-buttons a {
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 24px;
     font-family: d;
-    background-color: white;
+    background-color: black;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -533,8 +533,8 @@ body {
 }
 
 #alcohol-section .menu-buttons:hover a {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 
         background-color .5s,
         color .5s;
@@ -543,11 +543,11 @@ body {
 
 #desserts .menu-buttons a {
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 24px;
     font-family: d;
-    background-color: white;
+    background-color: black;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
@@ -557,8 +557,8 @@ body {
 }
 
 #desserts .menu-buttons:hover a {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 
         background-color .5s,
         color .5s;
@@ -566,11 +566,11 @@ body {
 
 #menu-description #main-button a {
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 24px;
     font-family: d;
-    background-color: white;
+    background-color: black;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
@@ -580,8 +580,8 @@ body {
 }
 
 #menu-description #main-button:hover a {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     transition: 
         background-color .5s,
         color .5s;
