@@ -142,8 +142,8 @@ body {
     margin: 10px;
     padding: 12px;
     transition: 
-    background-color .5s,
-    color .5s;
+        background-color .5s,
+        color .5s;
 }
 
 #hero-1 #button:hover a {
@@ -497,8 +497,8 @@ body {
     border-radius: 10px;
     font-weight: bold;
     transition: 
-    background-color .5s,
-    color .5s;
+        background-color .5s,
+        color .5s;
 }
 
 .menu-buttons {
@@ -525,8 +525,8 @@ body {
     border-radius: 10px;
     font-weight: bold;
     transition: 
-    background-color .5s,
-    color .5s;
+        background-color .5s,
+        color .5s;
 }
 
 #alcohol-section .menu-buttons:hover a {
@@ -548,8 +548,8 @@ body {
     border-radius: 10px;
     font-weight: bold;
     transition: 
-    background-color .5s,
-    color .5s;
+        background-color .5s,
+        color .5s;
 }
 
 #desserts .menu-buttons:hover a {
@@ -571,8 +571,8 @@ body {
     border-radius: 10px;
     font-weight: bold;
     transition: 
-    background-color .5s,
-    color .5s;
+        background-color .5s,
+        color .5s;
 }
 
 #menu-description #main-button:hover a {
